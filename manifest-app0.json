@@ -1,0 +1,23 @@
+{
+  "name": "SALTE Firmware",
+  "version": "0.0.1",
+  "new_install_skip_erase": true,
+  "new_install_prompt_erase": false,
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "improv": false,
+      "parts": [
+        {
+          "path": "firmware.bin",
+          "offset": 1638400
+        },
+        {
+          "path": "boot_app0.bin",
+          "offset": 126976
+        }
+      ]
+    }
+  ]
+}
