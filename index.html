@@ -84,7 +84,7 @@
     <main>
         <section class="card">
             <h1>Instalador SALTE PCB v6.1</h1>
-            <p class="version">Firmware ANATEL · versão 0b37eb4</p>
+            <p class="version">Firmware de ensaio ANATEL · versão 0dfd545</p>
 
             <ol>
                 <li>Conecte uma placa <strong>PCB v6.1</strong> ao USB.</li>
@@ -94,9 +94,15 @@
 
             <p class="notice">
                 Na etapa “Erase device”, mantenha “Apagar dispositivo”
-                desmarcado. Isso preserva a configuração, o Wi-Fi e o acesso
-                seguro do aplicativo. Placas virgens precisam ser preparadas
-                primeiro pela ferramenta de fábrica.
+                desmarcado para preservar os dados existentes. Este perfil
+                desativa o BLE e não aparece no aplicativo SALTE. O Wi-Fi fica
+                como SoftAP WPA2 no canal 1, com SSID
+                <strong>SLT-ANATEL-XXXXXX</strong>.
+            </p>
+
+            <p>
+                Senha do SoftAP:
+                <code>0123456789abcdef0123456789abcdef</code>
             </p>
 
             <esp-web-install-button manifest="manifest.json">

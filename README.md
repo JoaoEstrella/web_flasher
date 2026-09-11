@@ -13,9 +13,12 @@ Nenhuma credencial Security2 ou AWS pertence a este repositório público.
 ## Versão publicada
 
 - Fonte: `JoaoEstrella/salte-proto`, branch `anatel`
-- Commit: `0b37eb4`
+- Commit: `0dfd545`
 - Hardware: PCB v6.1 / ESP32-S3 / flash 16 MB
 - Perfil de rádio: ANATEL FHSS TX-only, 21 canais; faixa de 906 a 915,5 MHz excluída
+- BLE: desativado
+- Wi-Fi: SoftAP WPA2 permanente, canal 1, SSID `SLT-ANATEL-XXXXXX`
+- Senha laboratorial: `0123456789abcdef0123456789abcdef`
 
 ## Conteúdo gravado
 
