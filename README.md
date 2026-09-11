@@ -13,9 +13,9 @@ Nenhuma credencial Security2 ou AWS pertence a este repositório público.
 ## Versão publicada
 
 - Fonte: `JoaoEstrella/salte-proto`, branch `anatel`
-- Commit: `a75dfa4`
+- Commit: `0b37eb4`
 - Hardware: PCB v6.1 / ESP32-S3 / flash 16 MB
-- Perfil de rádio: ANATEL FHSS TX-only
+- Perfil de rádio: ANATEL FHSS TX-only, 21 canais; faixa de 906 a 915,5 MHz excluída
 
 ## Conteúdo gravado
 
