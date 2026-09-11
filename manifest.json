@@ -1,16 +1,30 @@
 {
-    "name": "SALTE Endpoint",
-    "version": "1.0.0",
-    "new_install_prompt_erase": true,
-    "builds": [
+  "name": "SALTE PCB v6.1 ANATEL",
+  "version": "a75dfa4",
+  "new_install_prompt_erase": true,
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "improv": false,
+      "parts": [
         {
-            "chipFamily": "ESP32-S3",
-            "parts": [
-                {
-                    "path": "firmware.bin",
-                    "offset": 0
-                }
-            ]
+          "path": "firmware/v6.1-anatel/bootloader.bin",
+          "offset": 0
+        },
+        {
+          "path": "firmware/v6.1-anatel/partition-table.bin",
+          "offset": 32768
+        },
+        {
+          "path": "firmware/v6.1-anatel/ota-data-initial.bin",
+          "offset": 57344
+        },
+        {
+          "path": "firmware/v6.1-anatel/salte-proto.bin",
+          "offset": 131072
         }
-    ]
+      ]
+    }
+  ]
 }
